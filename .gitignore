@@ -1,5 +1,6 @@
 node_modules/
 dist/
 src/.tmp/
+src/assets/css/theme.css
 package-lock.json
 .DS_Store
