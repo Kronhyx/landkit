@@ -1,4 +1,19 @@
-// 
+//
 // user.scss
 // Use this to write your custom SCSS
 //
+
+a.anchor:before {
+  content:'';
+  display:block;
+  height:90px;
+  margin:-90px 0 0;
+}
+.navbar-brand-img {
+  max-height:2rem;
+  max-width:5.5rem;
+}
+.footer-brand {
+  max-height:2rem;
+  max-width:5.5rem;
+}
