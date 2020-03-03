@@ -1,0 +1,704 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    @@include("partials/head.html", {
+      "pageTitle": "Landkit"
+    })
+  </head>
+  <body>
+
+    <!-- MODALS
+    ================================================== -->
+    @@include("partials/modals.html")
+
+    <!-- NAVBAR
+    ================================================== -->
+    @@include("partials/navbar.html", {
+      "classList": "navbar-light bg-white",
+      "type": "fluid"
+    })
+
+    <!-- WELCOME
+    ================================================== -->
+    <section data-jarallax data-speed=".8" class="pt-10 pt-md-14 pb-12 pb-md-15 overlay overlay-primary overlay-80 jarallax" style="background-image: url(assets/img/covers/cover-7.jpg);">
+
+      <!-- Content -->
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-8 text-center">
+
+            <!-- Heading -->
+            <h1 class="display-2 text-white">
+              What makes Akedo so smart?
+            </h1>
+
+            <!-- Text -->
+            <p class="lead text-white-75 mb-0">
+              Akedo's features work together to ensure the long term success of innovative pursuits, from ideation to launch.
+            </p>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+
+      <!-- Shape -->
+      <div class="position-absolute right-0 bottom-0 left-0">
+
+        <!-- Shape -->
+        <div class="position-relative shape shape-bottom shape-fluid-x svg-shim text-white">
+          @@include("assets/img/shapes/angles/angle-bottom.svg")
+        </div>
+
+        <!-- Button -->
+        <div class="position-absolute center">
+          <a class="btn btn-light btn-rounded-circle lift" data-toggle="smooth-scroll" href="#payItDown">
+            <i class="fe fe-arrow-down"></i>
+          </a>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- FEATURES
+    ================================================== -->
+    <section class="pt-8 pt-md-11" id="payItDown">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-12 col-md-6 col-lg-6 order-md-2">
+            <img src="assets/img/screenshots/ui/ideas.png" alt="..." class="img-fluid" data-aos="fade-left">
+          </div>
+          <div class="col-12 col-md-6 col-lg-6 order-md-1" data-aos="fade-right">
+            <span class="badge badge-pill badge-secondary-soft mb-3">
+              <span class="h6 text-uppercase">
+                <i class="fal fa-lightbulb-on mr-1" aria-hidden="true"></i>
+                Idea Management
+              </span>
+            </span>
+            <h1>
+              Capture innovative ideas.<br/>
+              <span class="text-secondary">From anyone anywhere.</span>
+            </h1>
+            <p class="font-size-lg text-gray-700 mb-6">
+              Akedo is the perfect home for your team's ideas. In Akedo, everyone has a chance to advance their favourite ideas by voting on and engaging with them.
+            </p>
+
+            <!-- List -->
+            <div class="row">
+              <div class="col-12 col-lg-6">
+                <div class="d-flex">
+                  <div class="badge badge-rounded-circle badge-secondary-soft mt-1 mr-4">
+                    <i class="fe fe-check"></i>
+                  </div>
+                  <p>
+                    Vote on ideas to promote your picks
+                  </p>
+                </div>
+                <div class="d-flex">
+                  <div class="badge badge-rounded-circle badge-secondary-soft mt-1 mr-4">
+                    <i class="fe fe-check"></i>
+                  </div>
+                  <p>
+                    Comment and upload files to share important information
+                  </p>
+                </div>
+                <div class="d-flex">
+                  <div class="badge badge-rounded-circle badge-secondary-soft mt-1 mr-4">
+                    <i class="fe fe-check"></i>
+                  </div>
+                  <p class="mb-lg-0">
+                    View creator only once roadmapped
+                  </p>
+                </div>
+              </div>
+              <div class="col-12 col-lg-6">
+                <div class="d-flex">
+                  <span class="badge badge-rounded-circle badge-secondary-soft mt-1 mr-4">
+                    <i class="fe fe-check"></i>
+                  </span>
+                  <p>
+                    Score launched ideas to measure value and improve suggestions
+                  </p>
+                </div>
+                <div class="d-flex">
+                  <div class="badge badge-rounded-circle badge-secondary-soft mr-1 mr-4">
+                    <i class="fe fe-check"></i>
+                  </div>
+                  <p class="mb-0">
+                    Set goals and categorize to align company values
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+    <section class="pt-8 pt-md-11">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-12 col-md-6 col-lg-6 order-md-1">
+            <img src="assets/img/screenshots/ui/goals.png" alt="..." class="img-fluid" data-aos="fade-right">
+          </div>
+          <div class="col-12 col-md-6 col-lg-6 order-md-2" data-aos="fade-left">
+            <span class="badge badge-pill badge-secondary-soft mb-3">
+              <span class="h6 text-uppercase">
+                <i class="fal fa-bullseye-arrow mr-1" aria-hidden="true"></i>
+                Goals & Categories
+              </span>
+            </span>
+            <h1>
+              Set goals and categorize.<br/>
+              <span class="text-secondary">Align your culture.</span>
+            </h1>
+            <p class="font-size-lg text-gray-700 mb-6">
+              Akedo wants your team to aim high, so we’ve created goals for your team to input their biggest ambitions. Categories was created to help your team find ideas that align with what their interested in working on easier.
+            </p>
+
+            <!-- List -->
+            <div class="row">
+              <div class="col-12">
+                <div class="d-flex">
+                  <div class="badge badge-rounded-circle badge-secondary-soft mt-1 mr-4">
+                    <i class="fe fe-check"></i>
+                  </div>
+                  <p>
+                    Create goals to align ideas and track progress
+                  </p>
+                </div>
+                <div class="d-flex">
+                  <div class="badge badge-rounded-circle badge-secondary-soft mt-1 mr-4">
+                    <i class="fe fe-check"></i>
+                  </div>
+                  <p>
+                    Tag ideas to categorize them
+                  </p>
+                </div>
+                <div class="d-flex">
+                  <div class="badge badge-rounded-circle badge-secondary-soft mt-1 mr-4">
+                    <i class="fe fe-check"></i>
+                  </div>
+                  <p class="mb-lg-0">
+                    Color code your goals to make them easier to identify
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+    <section class="pt-8 pt-md-11">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-12 col-md-6 col-lg-6 order-md-2">
+
+            <!-- Image -->
+            <img src="assets/img/screenshots/ui/ideas.png" alt="..." class="img-fluid" data-aos="fade-left">
+
+          </div>
+          <div class="col-12 col-md-6 col-lg-6 order-md-1" data-aos="fade-right">
+
+            <!-- Heading -->
+            <h1>
+              <i class="text-secondary fal fa-lightbulb-on fa-fw mr-3"></i> Gamification
+            </h1>
+
+            <!-- Text -->
+            <p class="font-size-lg text-gray-700 mb-6">
+              Akedo drives a team’s engagement by rewarding the most engaged team members with badges and high engagement scoring.
+            </p>
+
+            <!-- List -->
+            <div class="row">
+              <div class="col-12 col-lg-6">
+                <div class="d-flex">
+                  <div class="badge badge-rounded-circle badge-secondary-soft mt-1 mr-4">
+                    <i class="fe fe-check"></i>
+                  </div>
+                  <p>
+                    Vote and comment
+                  </p>
+                </div>
+                <div class="d-flex">
+                  <div class="badge badge-rounded-circle badge-secondary-soft mt-1 mr-4">
+                    <i class="fe fe-check"></i>
+                  </div>
+                  <p class="mb-lg-0">
+                    Submit annonymously
+                  </p>
+                </div>
+              </div>
+              <div class="col-12 col-lg-6">
+                <div class="d-flex">
+                  <span class="badge badge-rounded-circle badge-secondary-soft mt-1 mr-4">
+                    <i class="fe fe-check"></i>
+                  </span>
+                  <p>
+                    Score launched ideas
+                  </p>
+                </div>
+                <div class="d-flex">
+                  <div class="badge badge-rounded-circle badge-secondary-soft mr-1 mr-4">
+                    <i class="fe fe-check"></i>
+                  </div>
+                  <p class="mb-0">
+                    Set goals and categorize
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+    <section class="pt-8 pt-md-11">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-12 col-md-6 col-lg-6 order-md-1">
+
+            <!-- Image -->
+            <img src="assets/img/screenshots/ui/roadmaps.png" alt="..." class="img-fluid" data-aos="fade-right">
+
+          </div>
+          <div class="col-12 col-md-6 col-lg-6 order-md-2" data-aos="fade-left">
+
+            <!-- Heading -->
+            <h1>
+              <i class="text-secondary fal fa-map fa-fw mr-3"></i> Collabrating
+            </h1>
+
+            <!-- Text -->
+            <p class="font-size-lg text-gray-700 mb-6">
+              Keep your team's momentum flowing by inviting feedback, encouraging conversation and collaboration on ideas.
+            </p>
+
+            <!-- List -->
+            <div class="row">
+              <div class="col-12 col-lg-6">
+                <div class="d-flex">
+                  <div class="badge badge-rounded-circle badge-secondary-soft mt-1 mr-4">
+                    <i class="fe fe-check"></i>
+                  </div>
+                  <p>
+                    Vote and comment
+                  </p>
+                </div>
+                <div class="d-flex">
+                  <div class="badge badge-rounded-circle badge-secondary-soft mt-1 mr-4">
+                    <i class="fe fe-check"></i>
+                  </div>
+                  <p class="mb-lg-0">
+                    Submit annonymously
+                  </p>
+                </div>
+              </div>
+              <div class="col-12 col-lg-6">
+                <div class="d-flex">
+                  <span class="badge badge-rounded-circle badge-secondary-soft mt-1 mr-4">
+                    <i class="fe fe-check"></i>
+                  </span>
+                  <p>
+                    Score launched ideas
+                  </p>
+                </div>
+                <div class="d-flex">
+                  <div class="badge badge-rounded-circle badge-secondary-soft mr-1 mr-4">
+                    <i class="fe fe-check"></i>
+                  </div>
+                  <p class="mb-0">
+                    Set goals and categorize
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+    <section class="pt-8 pt-md-11">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-12 col-md-6 col-lg-6 order-md-2">
+
+            <!-- Image -->
+            <img src="assets/img/screenshots/ui/release-management.png" alt="..." class="img-fluid" data-aos="fade-left">
+
+          </div>
+          <div class="col-12 col-md-6 col-lg-6 order-md-1" data-aos="fade-right">
+
+            <!-- Heading -->
+            <h1>
+              <i class="text-secondary fal fa-rocket-launch fa-fw mr-3"></i> Release Management
+            </h1>
+
+            <!-- Text -->
+            <p class="font-size-lg text-gray-700 mb-6">
+              Get your next release out with ease, Akedo keeps a log of changes made and lets you easily customize your release message.
+            </p>
+
+            <!-- List -->
+            <div class="row">
+              <div class="col-12 col-lg-6">
+                <div class="d-flex">
+                  <div class="badge badge-rounded-circle badge-secondary-soft mt-1 mr-4">
+                    <i class="fe fe-check"></i>
+                  </div>
+                  <p>
+                    Vote and comment
+                  </p>
+                </div>
+                <div class="d-flex">
+                  <div class="badge badge-rounded-circle badge-secondary-soft mt-1 mr-4">
+                    <i class="fe fe-check"></i>
+                  </div>
+                  <p class="mb-lg-0">
+                    Submit annonymously
+                  </p>
+                </div>
+              </div>
+              <div class="col-12 col-lg-6">
+                <div class="d-flex">
+                  <span class="badge badge-rounded-circle badge-secondary-soft mt-1 mr-4">
+                    <i class="fe fe-check"></i>
+                  </span>
+                  <p>
+                    Score launched ideas
+                  </p>
+                </div>
+                <div class="d-flex">
+                  <div class="badge badge-rounded-circle badge-secondary-soft mr-1 mr-4">
+                    <i class="fe fe-check"></i>
+                  </div>
+                  <p class="mb-0">
+                    Set goals and categorize
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+    <section class="py-8 py-md-11">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-12 col-md-6 col-lg-6 order-md-1">
+
+            <!-- Image -->
+            <img src="assets/img/screenshots/ui/roadmaps.png" alt="..." class="img-fluid" data-aos="fade-right">
+
+          </div>
+          <div class="col-12 col-md-6 col-lg-6 order-md-2" data-aos="fade-left">
+
+            <!-- Heading -->
+            <h1>
+              <i class="text-secondary fal fa-map fa-fw mr-3"></i> Roadmaps
+            </h1>
+
+            <!-- Text -->
+            <p class="font-size-lg text-gray-700 mb-6">
+              Roadmaps gives your team a clear view of their vision and helps align new ideas with the bigger picture.
+            </p>
+
+            <!-- List -->
+            <div class="row">
+              <div class="col-12 col-lg-6">
+                <div class="d-flex">
+                  <div class="badge badge-rounded-circle badge-secondary-soft mt-1 mr-4">
+                    <i class="fe fe-check"></i>
+                  </div>
+                  <p>
+                    Vote and comment
+                  </p>
+                </div>
+                <div class="d-flex">
+                  <div class="badge badge-rounded-circle badge-secondary-soft mt-1 mr-4">
+                    <i class="fe fe-check"></i>
+                  </div>
+                  <p class="mb-lg-0">
+                    Submit annonymously
+                  </p>
+                </div>
+              </div>
+              <div class="col-12 col-lg-6">
+                <div class="d-flex">
+                  <span class="badge badge-rounded-circle badge-secondary-soft mt-1 mr-4">
+                    <i class="fe fe-check"></i>
+                  </span>
+                  <p>
+                    Score launched ideas
+                  </p>
+                </div>
+                <div class="d-flex">
+                  <div class="badge badge-rounded-circle badge-secondary-soft mr-1 mr-4">
+                    <i class="fe fe-check"></i>
+                  </div>
+                  <p class="mb-0">
+                    Set goals and categorize
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+    <!-- SHAPE
+    ================================================== -->
+    <div class="position-relative">
+      <div class="shape shape-bottom shape-fluid-x svg-shim text-light">
+        @@include("assets/img/shapes/curves/curve-1.svg")
+      </div>
+    </div>
+
+    <!-- BLOG
+    ================================================== -->
+    <section class="py-8 py-md-11 bg-gradient-light border-bottom">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-8 text-center">
+
+            <!-- Badge -->
+            <span class="badge badge-pill badge-primary-soft mb-3">
+              <span class="h6 text-uppercase">Our blog</span>
+            </span>
+
+            <!-- Heading -->
+            <h1>
+              Stay up to date with Ideation
+            </h1>
+
+            <!-- Text -->
+            <p class="font-size-lg text-muted mb-7 mb-md-9">
+              We share common trends and strategies for improving ideation in your company.
+            </p>
+
+          </div>
+        </div> <!-- / .row -->
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4 d-flex">
+
+            <!-- Card -->
+            <div class="card mb-6 mb-lg-0 shadow-light-lg lift lift-lg">
+
+              <!-- Image -->
+              <a class="card-img-top" href="#!">
+                <img src="assets/img/photos/photo-6.jpg" alt="..." class="img-fluid">
+              </a>
+
+              <!-- Shape -->
+              <div class="position-relative">
+                <div class="shape shape-fluid-x shape-bottom svg-shim text-white">
+                  @@include("assets/img/shapes/curves/curve-1.svg")
+                </div>
+              </div>
+
+              <!-- Body -->
+              <a class="card-body" href="#!">
+
+                <!-- Heading -->
+                <h3>
+                  Photos should appeal to a sense of adventure
+                </h3>
+
+                <!-- Text -->
+                <p class="mb-0 text-muted">
+                  Cozy vibes are out and this summer you should focus on making customer's feel brave.
+                </p>
+
+              </a>
+
+              <!-- Meta -->
+              <a class="card-meta" href="#!">
+
+                <!-- Divider -->
+                <hr class="card-meta-divider">
+
+                <!-- Avatar -->
+                <div class="avatar avatar-sm mr-2">
+                  <img src="assets/img/avatars/avatar-1.jpg" alt="..." class="avatar-img rounded-circle">
+                </div>
+
+                <!-- Author -->
+                <h6 class="text-uppercase text-muted mr-2 mb-0">
+                  Danny Devito
+                </h6>
+
+                <!-- Date -->
+                <p class="h6 text-uppercase text-muted mb-0 ml-auto">
+                  <time datetime="2019-05-02">May 02</time>
+                </p>
+
+              </a>
+
+            </div>
+
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 d-flex">
+
+            <!-- Card -->
+            <div class="card mb-6 mb-lg-0 shadow-light-lg lift lift-lg">
+
+              <!-- Image -->
+              <a class="card-img-top" href="#!">
+                <img src="assets/img/photos/photo-7.jpg" alt="..." class="img-fluid">
+              </a>
+
+              <!-- Shape -->
+              <div class="position-relative">
+                <div class="shape shape-fluid-x shape-bottom svg-shim text-white">
+                  @@include("assets/img/shapes/curves/curve-1.svg")
+                </div>
+              </div>
+
+              <!-- Body -->
+              <a class="card-body" href="#!">
+
+                <!-- Heading -->
+                <h3>
+                  Photos should appeal to a sense of adventure
+                </h3>
+
+                <!-- Text -->
+                <p class="mb-0 text-muted">
+                  Cozy vibes are out and this summer you should focus on making customer's feel brave.
+                </p>
+
+              </a>
+
+              <!-- Meta -->
+              <a class="card-meta" href="#!">
+
+                <!-- Divider -->
+                <hr class="card-meta-divider">
+
+                <!-- Avatar -->
+                <div class="avatar avatar-sm mr-2">
+                  <img src="assets/img/avatars/avatar-1.jpg" alt="..." class="avatar-img rounded-circle">
+                </div>
+
+                <!-- Author -->
+                <h6 class="text-uppercase text-muted mr-2 mb-0">
+                  Danny Devito
+                </h6>
+
+                <!-- Date -->
+                <p class="h6 text-uppercase text-muted mb-0 ml-auto">
+                  <time datetime="2019-05-02">May 02</time>
+                </p>
+
+              </a>
+
+            </div>
+
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 d-flex">
+
+            <!-- Card -->
+            <div class="card mb-6 mb-lg-0 shadow-light-lg lift lift-lg">
+
+              <!-- Image -->
+              <a class="card-img-top" href="#!">
+                <img src="assets/img/photos/photo-4.jpg" alt="..." class="img-fluid">
+              </a>
+
+              <!-- Shape -->
+              <div class="position-relative">
+                <div class="shape shape-fluid-x shape-bottom svg-shim text-white">
+                  @@include("assets/img/shapes/curves/curve-1.svg")
+                </div>
+              </div>
+
+              <!-- Body -->
+              <a class="card-body" href="#!">
+
+                <!-- Heading -->
+                <h3>
+                  Photos should appeal to a sense of adventure
+                </h3>
+
+                <!-- Text -->
+                <p class="mb-0 text-muted">
+                  Cozy vibes are out and this summer you should focus on making customer's feel brave.
+                </p>
+
+              </a>
+
+              <!-- Meta -->
+              <a class="card-meta" href="#!">
+
+                <!-- Divider -->
+                <hr class="card-meta-divider">
+
+                <!-- Avatar -->
+                <div class="avatar avatar-sm mr-2">
+                  <img src="assets/img/avatars/avatar-1.jpg" alt="..." class="avatar-img rounded-circle">
+                </div>
+
+                <!-- Author -->
+                <h6 class="text-uppercase text-muted mr-2 mb-0">
+                  Danny Devito
+                </h6>
+
+                <!-- Date -->
+                <p class="h6 text-uppercase text-muted mb-0 ml-auto">
+                  <time datetime="2019-05-02">May 02</time>
+                </p>
+
+              </a>
+
+            </div>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- CTA
+    ================================================== -->
+    <section data-jarallax data-speed=".8" class="py-12 py-md-14 overlay overlay-black overlay-80 jarallax" style="background-image: url(assets/img/covers/cover-8.jpg);">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-1- col-lg-8 text-center">
+
+            <!-- Heading -->
+            <h1 class="text-white">
+              Stop leaving money on the table.
+            </h1>
+
+            <!-- Text -->
+            <p class="font-size-lg text-white-80 mb-6 mb-md-8">
+              Post your home today and start entertaining welcome guests and collecting a paycheck without ever lifting a finger.
+            </p>
+
+            <!-- Button -->
+            <a href="#!" class="btn btn-pill btn-primary lift">
+              Get Started <i class="fe fe-arrow-right ml-2"></i>
+            </a>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- SHAPE
+    ================================================== -->
+    <div class="position-relative">
+      <div class="shape shape-bottom shape-fluid-x svg-shim text-dark">
+        @@include("assets/img/shapes/curves/curve-1.svg")
+      </div>
+    </div>
+
+    <!-- FOOTER
+    ================================================== -->
+    @@include("partials/footer.html", {
+      "classList": "bg-dark"
+    })
+
+    <!-- JAVASCRIPT
+    ================================================== -->
+    @@include("partials/scripts.html")
+
+  </body>
+</html>
